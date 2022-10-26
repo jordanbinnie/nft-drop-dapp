@@ -28,3 +28,18 @@ export interface Collection {
     mainImage: Image
     previewImage: Image
 }
+
+interface Attributes {
+    trait_type?: string,
+    value?: string
+  
+  }
+
+  
+  export interface NFT {
+    metadata: NFTMetadata;
+    owner: string;
+    type: "ERC1155" | "ERC721" | "metaplex";
+    supply: number;
+    quantityOwned?: number;
+}
