@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { ConnectWallet } from "@thirdweb-dev/react"
 import Link from 'next/link'
-import RoamApesLogo from '../public/roamapes-logo2.png'
+import RoamApesLogo from '../public/roamapes-logo-05.png'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import Sidebar from './Sidebar'
@@ -36,14 +36,14 @@ function Navbar() {
 
     return (
         <>
-            <div className="w-full fixed h-[80px] shadow-lg shadow-gray-100 flex items-center bg-white z-50">
+            <div className="w-full fixed h-[80px] shadow-lg shadow-gray-100/80 flex items-center bg-white z-50">
                 <div className="relative grid grid-cols-9 items-center w-full max-w-7xl mx-auto px-10">
 
                     {/* left */}
                     <div className="col-span-3 flex justify-start">  
-                        <div className="hidden lg:flex pt-2">
+                        <div className="hidden lg:flex">
                             <Link href="/">  
-                                <Image src={RoamApesLogo} className="cursor-pointer" height={60} width={120} objectFit="contain" />
+                                <Image src={RoamApesLogo} className="cursor-pointer" height={60} width={80} objectFit="contain" />
                             </Link>
                         </div>
                         
@@ -74,8 +74,8 @@ function Navbar() {
                         </div>
 
 
-                        <div className="col-span-3 flex justify-center lg:hidden pt-2">  
-                            <Image src={RoamApesLogo} height={60} width={120} objectFit="contain" />
+                        <div className="col-span-3 flex justify-center lg:hidden">  
+                            <Image src={RoamApesLogo} height={60} width={80} objectFit="contain" />
                         </div>
                     </div>
 

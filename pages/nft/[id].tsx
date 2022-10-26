@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useContext } from 'react'
-import { ConnectWallet, useAddress, useContract } from "@thirdweb-dev/react";
+import { useAddress, useContract } from "@thirdweb-dev/react";
 import { GetServerSideProps } from 'next';
-import { sanityClient, urlFor } from '../../sanity';
-import { Collection, NFT } from '../../typings';
+import { sanityClient } from '../../sanity';
+import { Collection } from '../../typings';
 import { BigNumber } from 'ethers';
 import toast, { Toaster } from 'react-hot-toast'
 import Navbar from '../../components/Navbar';
@@ -93,15 +93,9 @@ function NFTDropPage({collection}: Props) {
                 }
             })
 
-            console.log(receipt)
-            console.log(claimedTokenId)
-            console.log(newClaimedNFT)
-
             setClaimedNft(newClaimedNFT)
 
             router.push(`/nft/showcase/${address}`)
-
-            setClaimedNft(newClaimedNFT)
 
         }).catch(err => {
             console.log(err)

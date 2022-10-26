@@ -1,8 +1,8 @@
-import type { GetServerSideProps, NextPage } from 'next'
+import type { GetServerSideProps } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { sanityClient, urlFor } from '../sanity'
+import { sanityClient } from '../sanity'
 import { Collection } from '../typings'
 import Navbar from '../components/Navbar'
 import Timeline from '../components/Timeline'
@@ -13,8 +13,6 @@ import { ArrowRightCircleIcon } from '@heroicons/react/24/outline'
 import { BigNumber } from 'ethers'
 import { useEffect, useState } from 'react'
 import { useContract } from '@thirdweb-dev/react'
-import Sidebar from '../components/Sidebar'
-import dynamic from "next/dynamic"
 
 interface Props {
   collections: Collection[]
