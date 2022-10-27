@@ -49,8 +49,8 @@ const Home = ({ collections }: Props) => {
   return (
     <div className="flex flex-col px-10 pb-10 items-center max-w-7xl mx-auto">
       <Head>
-        <title>NFT Drop</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Roam Apes</title>
+        <link rel="icon" href="roamape-emblem.png" />
       </Head>
 
       <Navbar />
