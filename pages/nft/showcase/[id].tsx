@@ -30,7 +30,7 @@ function Showcase() {
 
               {/* right */}
               <div className="flex-1 flex justify-center mt-10 pt-5">
-                <div className="w-fit flex flex-col relative z-[-2]">
+                <div className="w-fit flex flex-col relative">
 
                    {/* fake card */}
                   <div className="bg-white border-2 border-black absolute z-[-1] -rotate-12 p-5 w-[240px] lg:w-fit">
@@ -94,7 +94,7 @@ function Showcase() {
                       <button className="text-sm lg:text-base w-full bg-black text-white p-1.5 lg:p-3 mt-3 rounded-lg hover:text-pink-100 font-semibold cursor-pointer z-5">Share</button>
                     </div>
                   </div>
-                  <a href="https://testnets.opensea.io/account" target="_blank"><button className="lg:hidden h-16 bg-blue-500 w-full text-white rounded-full mt-10 font-bold hover:shadow-[0px_0px_0px_1px_rgba(59,130,246)]">View on Open Sea</button></a>
+                  <a href="https://testnets.opensea.io/account" target="_blank"><button className="lg:hidden h-16 bg-blue-500 w-full text-white rounded-full mt-10 font-bold hover:shadow-[0px_0px_0px_1px_rgba(59,130,246)]">View ony Open Sea</button></a>
                 </div>
               </div>
             </div>
