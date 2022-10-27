@@ -57,20 +57,19 @@ function Navbar() {
                     <div className="col-span-3 flex justify-center">
                         <div className="hidden lg:flex">
                             <Link href={'/'}>
-                                <a className={`px-4 cursor-pointer transition-all ${asPath === "/" ? "black" : "text-gray-600/80"}`}>
+                                <a className={`px-4 cursor-pointer transition-all hover:text-black ${asPath === "/" ? "black" : "text-gray-600/80"}`}>
                                     Home
                                 </a>
                             </Link>
 
 
                             <Link href={'/nft/mint'}>
-                                <a className={`px-4 cursor-pointer transition-all ${(asPath === "/nft/mint" || asPath === "/nft/showcase/simulate") ? "black" : "text-gray-600/80"}`}>
+                                <a className={`px-4 cursor-pointer transition-all hover:text-black ${(asPath === "/nft/mint" || asPath.includes("/nft/showcase")) ? "black" : "text-gray-600/80"}`}>
                                     Mint
                                 </a>
                             </Link>
 
-                            <a className="px-4 text-gray-600/80 cursor-pointer">Create</a>
-                            <a className="px-4 text-gray-600/80 cursor-pointer">About</a>
+                            <a href="https://testnets.opensea.io/account" target="_blank" className="px-4 text-gray-600/80 cursor-pointer hover:text-black">Manage</a>
                         </div>
 
 

@@ -91,7 +91,8 @@ const Home = ({ collections }: Props) => {
               <h1 className="font-bold text-5xl lg:text-7xl bg-pink-100 p-3 w-fit">Roam Apes</h1>
               <div className="flex flex-col mt-4 lg:max-w-[375px] ml-auto">
                 <div>
-                  <p className="font-medium text-lg">Meet a very special group of Apes that sleep, eat and breathe coding.</p>
+                  {/* <p className="font-medium text-lg">Meet a very special group of Apes that sleep, eat and breathe coding.</p> */}
+                  <p className="font-medium text-lg">Meet a very special group of Apes that will Roam, Rule and Conquer the digital ape world.</p>
 
                   <div className="mt-5 items-center flex space-x-5 relative">
                     <Link href={`/nft/${mintUrl}`}>

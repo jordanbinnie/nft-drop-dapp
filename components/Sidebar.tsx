@@ -23,8 +23,7 @@ function Sidebar() {
                     </a>
                 </Link>
 
-                <a className="px-4 text-gray-600/80 cursor-pointer p-5 m-2 hover:bg-gray-100 hover:text-black rounded-lg">Create</a>
-                <a className="px-4 text-gray-600/80 cursor-pointer p-5 m-2 hover:bg-gray-100 hover:text-black rounded-lg" >About</a>
+                <a href="https://testnets.opensea.io/account" target="_blank" className="px-4 cursor-pointer transition-all p-5 m-2 text-gray-600/80 hover:bg-gray-100 hover:text-black rounded-lg">Manage</a>
 
                 <div className="flex justify-center mt-2">
                     <ConnectWallet className="focus:outline-none" />

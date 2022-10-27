@@ -70,7 +70,7 @@ function NFTDropPage({collection}: Props) {
         const notification = toast.loading('Minting...', {
             style: {
                 background: 'white',
-                color: 'green',
+                color: '#3B82F6',
                 fontWeight: 'bolder',
                 fontSize: '17px',
                 padding: '20px',
@@ -82,10 +82,10 @@ function NFTDropPage({collection}: Props) {
             const claimedTokenId = tx[0].id // the id of the NFT claimed
             const newClaimedNFT = await tx[0].data() // (optional) get the claimed NFT metadata
 
-            toast('HOORAY.. You Successfully Minted!', {
+            toast('Ape Minted Successfully!', {
                 duration: 8000,
                 style: {
-                    background: 'green',
+                    background: '#3B82F6',
                     color: 'white',
                     fontWeight: 'bolder',
                     fontSize: '17px',
@@ -102,8 +102,8 @@ function NFTDropPage({collection}: Props) {
             toast('Whoops... Something went wrong!', {
                 duration: 8000,
                 style: {
-                    background: 'red',
-                    color: 'white',
+                    background: '#FCE7F3',
+                    color: 'black',
                     fontWeight: 'bolder',
                     fontSize: '17px',
                     padding: '20px',

@@ -49,7 +49,7 @@ function Showcase() {
                     </div>
 
                     <div className="w-full">  
-                      <div className="flex flex-wrap max-w-fit">
+                      <div className="flex flex-wrap max-w-fit lg:mt-1">
                         {claimedNft.metadata.attributes.map(((trait: { trait_type: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; value: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined }) => {
                           return (
                             <>
@@ -80,7 +80,7 @@ function Showcase() {
                     </div>
 
                     <div className="w-full">  
-                      <div className="flex flex-wrap max-w-fit">
+                      <div className="flex flex-wrap max-w-fit lg:mt-1">
                         {claimedNft.metadata.attributes.map(((trait: { trait_type: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; value: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined }) => {
                           return (
                             <>
