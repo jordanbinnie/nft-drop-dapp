@@ -4,6 +4,7 @@ import { Toaster } from 'react-hot-toast'
 import Navbar from '../../../components/Navbar'
 import { AppContext } from '../../../AppContext'
 import ApeX from '../../../public/ape-x.png'
+import Head from 'next/head'
 
 function Showcase() {
 
@@ -15,6 +16,10 @@ function Showcase() {
 
   return (
     <div className="min-h-screen lg:h-screen flex flex-col px-10 pb-10 items-center max-w-7xl mx-auto relative">
+            <Head>
+              <title>Roam Apes</title>
+              <link rel="icon" href="/roamape-emblem.png" />
+            </Head>
             <Toaster position='bottom-center' />
 
             <Navbar />

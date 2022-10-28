@@ -9,6 +9,7 @@ import Navbar from '../../components/Navbar';
 import { useRouter } from 'next/router'
 import { AppContext } from '../../AppContext'
 import Link from 'next/link';
+import Head from 'next/head';
 
 
 
@@ -117,6 +118,10 @@ function NFTDropPage({collection}: Props) {
             
     return (
         <div className="h-screen max-h-screen flex flex-col px-10 items-center max-w-7xl mx-auto relative">
+            <Head>
+                <title>Roam Apes</title>
+                <link rel="icon" href="/roamape-emblem.png" />
+            </Head>
             <Toaster position='bottom-center' />
 
             <Navbar />
