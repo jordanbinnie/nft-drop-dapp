@@ -99,7 +99,7 @@ function Showcase() {
                       <button className="text-sm lg:text-base w-full bg-black text-white p-1.5 lg:p-3 mt-3 rounded-lg hover:text-pink-100 font-semibold cursor-pointer z-5">Share</button>
                     </div>
                   </div>
-                  <a href="https://testnets.opensea.io/account" target="_blank"><button className="lg:hidden h-16 bg-blue-500 w-full text-white rounded-full mt-10 font-bold hover:shadow-[0px_0px_0px_1px_rgba(59,130,246)]">View ony Open Sea</button></a>
+                  <a href="https://testnets.opensea.io/account" target="_blank"><button className="lg:hidden h-16 bg-blue-500 w-full text-white rounded-full mt-10 font-bold hover:shadow-[0px_0px_0px_1px_rgba(59,130,246)]">View on Open Sea</button></a>
                 </div>
               </div>
             </div>
